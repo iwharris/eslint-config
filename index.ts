@@ -1,6 +1,6 @@
-import { CLIEngine, Linter} from 'eslint';
+import { CLIEngine, Linter } from 'eslint';
 
-export type Config = CLIEngine.Options & Linter.Config;
+type Config = CLIEngine.Options & Linter.Config;
 
 const eslintConfig: Config = {
   parser: "@typescript-eslint/parser",
@@ -29,4 +29,4 @@ const eslintConfig: Config = {
   }
 };
 
-export default eslintConfig;
+export = eslintConfig;
