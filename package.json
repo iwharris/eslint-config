@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --target es5 --lib es2015 index.ts",
     "prepublishOnly": "npm run build",
-    "test": "exit 0"
+    "test": "eslint -c index.js"
   },
   "repository": {
     "type": "git",
