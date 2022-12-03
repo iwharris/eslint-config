@@ -11,9 +11,9 @@ const eslintConfig: Config = {
     es6: true,
   },
   extends: [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
   parserOptions: {
     ecmaVersion: 2019,
